@@ -13,6 +13,9 @@
 		04D2352B265C18D800A036FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D23529265C18D800A036FA /* Main.storyboard */; };
 		04D2352D265C18DB00A036FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D2352C265C18DB00A036FA /* Assets.xcassets */; };
 		04D23530265C18DB00A036FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D2352E265C18DB00A036FA /* LaunchScreen.storyboard */; };
+		04D23539265C1AA500A036FA /* DriversModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D23538265C1AA500A036FA /* DriversModel.swift */; };
+		04D2353C265C1ADC00A036FA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2353B265C1ADC00A036FA /* NetworkService.swift */; };
+		04D2353F265C1F5700A036FA /* StandingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2353E265C1F5700A036FA /* StandingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		04D2352C265C18DB00A036FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D2352F265C18DB00A036FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D23531265C18DC00A036FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D23538265C1AA500A036FA /* DriversModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversModel.swift; sourceTree = "<group>"; };
+		04D2353B265C1ADC00A036FA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		04D2353E265C1F5700A036FA /* StandingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				04D23523265C18D800A036FA /* AppDelegate.swift */,
 				04D23525265C18D800A036FA /* SceneDelegate.swift */,
 				04D23527265C18D800A036FA /* ViewController.swift */,
+				04D23538265C1AA500A036FA /* DriversModel.swift */,
+				04D2353E265C1F5700A036FA /* StandingsViewController.swift */,
+				04D2353B265C1ADC00A036FA /* NetworkService.swift */,
 				04D23529265C18D800A036FA /* Main.storyboard */,
 				04D2352C265C18DB00A036FA /* Assets.xcassets */,
 				04D2352E265C18DB00A036FA /* LaunchScreen.storyboard */,
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D2353C265C1ADC00A036FA /* NetworkService.swift in Sources */,
 				04D23528265C18D800A036FA /* ViewController.swift in Sources */,
+				04D2353F265C1F5700A036FA /* StandingsViewController.swift in Sources */,
+				04D23539265C1AA500A036FA /* DriversModel.swift in Sources */,
 				04D23524265C18D800A036FA /* AppDelegate.swift in Sources */,
 				04D23526265C18D800A036FA /* SceneDelegate.swift in Sources */,
 			);
